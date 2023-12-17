@@ -9,6 +9,7 @@
     /* Earth Yellow */
     --white: #fefefeff;
     /* White */
+    --quote-background: #eed5ad;
 }
 
 /* :root {
@@ -23,14 +24,20 @@
     --accent-color: #fefefeff;
     White
 } */
+html {
+    scroll-padding-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-button{
+
+button {
     padding: 10px;
     background-color: var(--primary-color);
     color: var(--white);
@@ -97,12 +104,15 @@ nav a:hover {
     justify-content: center;
     align-items: center;
 }
-.hero-wrapper{
+
+.hero-wrapper {
     width: 40%;
 }
+
 .hero h1 {
     font-size: 48px;
     font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero p {
@@ -112,7 +122,8 @@ nav a:hover {
     text-align: justify;
     /* font-weight: bolder; */
 }
-.buffest{
+
+.buffest {
     font-weight: 600;
     font-style: italic;
     /* background-color: red; */
@@ -124,5 +135,79 @@ footer {
     align-items: center;
     height: 90px;
     /* background-color: var(--primary-color); */
+
+}
+
+.section2 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section2 h2 {
+    text-decoration: underline;
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features-wrap {
+    /* border: 1px solid red; */
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+    font-weight: 600;
+    color: var(--secondary-color)
+}
+
+.features-wrap img {
+    width: 355px
+}
+
+.features-wrap figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid var(--accent-color);
+}
+
+.features-wrap figcaption {
+    width: 300px;
+    text-align: center;
+}
+
+.section3 {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quote-background);
+    font-size: 36px;
+    font-style: italic;
+}
+.section3 figure {
+    padding: 10px;
+}
+
+.section3 figure {
+    width: 50%;
+}
+
+.section3 figcaption {
+    font-size: 25px;
+    padding-left: 300px;
+    text-align: center;
+}
+.section4 {
+    height: 50vh;
+    background-color: var(--white);
+    /* border: 1px solid red;  */
 
 }
