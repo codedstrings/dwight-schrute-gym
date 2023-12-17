@@ -37,16 +37,7 @@ html {
     scroll-behavior: smooth;
 }
 
-button {
-    padding: 10px;
-    background-color: var(--primary-color);
-    color: var(--white);
-    font-size: 15px;
-    font-weight: bold;
-    border: 0;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 
 body {
     background-color: var(--white);
@@ -123,6 +114,17 @@ nav a:hover {
     text-align: justify;
     /* font-weight: bolder; */
 }
+.hero button{
+        padding: 10px;
+        background-color: var(--primary-color);
+        color: var(--white);
+        font-size: 15px;
+        font-weight: bold;
+        border: 0;
+        cursor: pointer;
+        border-radius: 5px;
+    
+}
 
 .buffest {
     font-weight: 600;
@@ -130,14 +132,7 @@ nav a:hover {
     /* background-color: red; */
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    /* background-color: var(--primary-color); */
 
-}
 
 .section2 {
     /* border: 1px solid red; */
@@ -154,6 +149,7 @@ footer {
     text-decoration: underline;
     color: var(--secondary-color);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 .features-wrap {
@@ -185,7 +181,7 @@ footer {
 }
 
 .section3 {
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +204,51 @@ footer {
 }
 .section4 {
     height: 50vh;
-    background-color: var(--white);
+    /* background-color: var(--white);  */
     /* border: 1px solid red;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box{
+    background-color: var(--primary-color);
+    padding: 40px;
+    width: 70%;
+    height: 40%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    color: var(--white);
+    font-size: 18px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup-box .header{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.signup-box button{
+   padding: 5px 10px;
+   font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    border-color: var(--white);
+    border-style: solid;
+    color: var(--white);
+}
+footer{
+    border-top: 1px solid var(--primary-color);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    /* background-color: var(--primary-color); */
 
 }
