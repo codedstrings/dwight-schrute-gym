@@ -12,18 +12,6 @@
     --quote-background: #eed5ad;
 }
 
-/* :root {
-    --background-color: #cf9e51ff;
-    Earth Yellow
-    --primary-color: #684d2cff;
-    Kobicha
-    --secondary-color: #3d2c1aff;
-    Bistre
-    --secondary-color2: #34251bff;
-    Bistre2
-    --accent-color: #fefefeff;
-    White
-} */
 html {
     scroll-padding-top: 5rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,14 +43,6 @@ header {
     background-color: var(--accent-color);
 }
 
-/* ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
-    align-items: center;
-} */
 nav {
     list-style: none;
     display: flex;
@@ -108,7 +88,7 @@ nav a:hover {
 }
 
 .hero p {
-    padding: 20px 50px 20px 20px;
+    padding: 20px 50px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: justify;
@@ -123,19 +103,16 @@ nav a:hover {
         border: 0;
         cursor: pointer;
         border-radius: 5px;
-    
 }
 
 .buffest {
     font-weight: 600;
     font-style: italic;
-    /* background-color: red; */
 }
 
 
 
 .section2 {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,11 +130,9 @@ nav a:hover {
 }
 
 .features-wrap {
-    /* border: 1px solid red; */
     display: flex;
     text-decoration: none;
     justify-content: center;
-    /* align-items: center; */
     gap: 20px;
     font-weight: 600;
     color: var(--secondary-color)
@@ -204,8 +179,6 @@ nav a:hover {
 }
 .section4 {
     height: 50vh;
-    /* background-color: var(--white);  */
-    /* border: 1px solid red;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,8 +205,6 @@ nav a:hover {
     margin-bottom: 5px;
 }
 .signup-box button{
-   /* padding: 10px 10px;
-    */
     height: 50%;
     width: 20%;
    font-size: 18px;
@@ -252,6 +223,4 @@ footer{
     justify-content: center;
     align-items: center;
     height: 90px;
-    /* background-color: var(--primary-color); */
-
 }
