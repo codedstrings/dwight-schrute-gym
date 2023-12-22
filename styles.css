@@ -15,6 +15,7 @@
 html {
     scroll-padding-top: 5rem;
     font-family: Arial, Helvetica, sans-serif;
+    /* overflow-x: hidden; */
 }
 
 
@@ -29,6 +30,7 @@ html {
 
 body {
     background-color: var(--white);
+    /* width: 100%; */
     /* color: var(--accent-color); */
 }
 
@@ -132,21 +134,26 @@ nav a:hover {
 .features-wrap {
     display: flex;
     text-decoration: none;
-    justify-content: center;
     gap: 20px;
     font-weight: 600;
+    border: 1px solid red;
+    padding: 0 20px;
     color: var(--secondary-color)
 }
 
 .features-wrap img {
-    width: 355px
+   /* height: 300px; */
+   /* width: 200px; */
 }
 
 .features-wrap figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    height: 400px;
+    /* width: 400px; */
     border: 2px solid var(--accent-color);
 }
 
