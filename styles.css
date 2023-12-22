@@ -222,6 +222,7 @@ nav a:hover {
     border-color: var(--white);
     border-style: solid;
     color: var(--white);
+    cursor: pointer;
 }
 footer{
     border-top: 1px solid var(--primary-color);
