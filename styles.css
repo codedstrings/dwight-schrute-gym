@@ -136,14 +136,15 @@ nav a:hover {
     text-decoration: none;
     gap: 20px;
     font-weight: 600;
-    border: 1px solid red;
     padding: 0 20px;
     color: var(--secondary-color)
 }
 
 .features-wrap img {
-   /* height: 300px; */
-   /* width: 200px; */
+   /* height: 300px;
+   width: 200px; */
+   /* border: 1px solid red; */
+   padding: 0 15px;
 }
 
 .features-wrap figure {
