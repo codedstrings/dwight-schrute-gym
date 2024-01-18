@@ -233,3 +233,7 @@ footer{
     align-items: center;
     height: 90px;
 }
+footer a{
+    /* text-decoration: none; */
+    color: black;
+}
